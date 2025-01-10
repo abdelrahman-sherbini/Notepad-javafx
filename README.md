@@ -1,6 +1,6 @@
-# Windows Notepad created with JAVAFX via MAVEN
+# Windows Notepad created with JAVAFX using Maven
 
-Built windows notepad with javafx and fxml to load new windows of same notepad using MAVEN
+Built windows notepad with javafx and fxml to load new windows of same notepad using Maven
 
 Features :-
 
