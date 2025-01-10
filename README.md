@@ -8,3 +8,7 @@ Features :-
 1. Editing text
 
 ![Alt text](Demo.jpg?raw=true "Notepad")
+
+To run the app:-
+
+1. Just do ```mvn javafx:run``
