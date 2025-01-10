@@ -8,6 +8,7 @@ Features :-
 1. Editing text
 
 ![Alt text](Demo.jpg?raw=true "Notepad")
+![Alt text](demo2.jpg?raw=true "Notepad")
 
 To run the app:-
 

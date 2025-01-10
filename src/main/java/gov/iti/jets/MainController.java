@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.FileChooser;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 // import javafx.application.Application;
 import javafx.event.*;
@@ -188,7 +189,9 @@ mOpen.setOnAction(new EventHandler<ActionEvent>() {
 	mExit.setOnAction(e -> {
         if(!edited){
         Alert alert = new Alert(AlertType.CONFIRMATION, "Didn't save, Are you sure you want to exit?", ButtonType.YES, ButtonType.NO);
-        alert.showAndWait();
+        alert.initOwner(stage);
+		alert.initModality(Modality.WINDOW_MODAL);
+		alert.showAndWait();
         if (alert.getResult() == ButtonType.YES) {
             stage.close();
         }
