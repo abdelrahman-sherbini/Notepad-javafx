@@ -11,4 +11,4 @@ Features :-
 
 To run the app:-
 
-1. Just do ```mvn javafx:run```
+1. Just do ```mvn javafx:run``` on cmd
