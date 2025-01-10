@@ -7,4 +7,4 @@ Features :-
 1. new/open/save window
 1. Editing text
 
-![Alt text](demo.jpg?raw=true "Notepad")
+![Alt text](Demo.jpg?raw=true "Notepad")
