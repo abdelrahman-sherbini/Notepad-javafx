@@ -11,4 +11,9 @@ Features :-
 
 To run the app:-
 
-1. Just do ```mvn javafx:run``` on cmd
+1. Just do on cmd
+
+```
+git clone https://github.com/abdelrahman-sherbini/Notepad-javafx.git && cd Notepad-javafx
+mvn javafx:run
+```
