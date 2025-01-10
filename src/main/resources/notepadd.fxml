@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextArea?>
+
+<BorderPane fx:id="border" xmlns:fx="http://javafx.com/fxml" fx:controller="gov.iti.jets.MainController">
+    <top>
+        <MenuBar fx:id="menuBar">
+            <menus>
+                <Menu fx:id="file" text="File">
+                    <items>
+                        <MenuItem fx:id="mNew" mnemonicParsing="true" text="New" />
+                        <MenuItem fx:id="mOpen" mnemonicParsing="true" text="Open..." />
+                        <MenuItem fx:id="mSave" mnemonicParsing="true" text="Save" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="mExit" mnemonicParsing="true" text="Exit" />
+                    </items>
+                </Menu>
+                <Menu fx:id="edit" text="Edit">
+                    <items>
+                        <MenuItem fx:id="mUndo" mnemonicParsing="true" text="Undo" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="mCut" mnemonicParsing="true" text="Cut" />
+                        <MenuItem fx:id="mCopy" mnemonicParsing="true" text="Copy" />
+                        <MenuItem fx:id="mPaste" mnemonicParsing="true" text="Paste" />
+                        <MenuItem fx:id="mDelete" mnemonicParsing="true" text="Delete" />
+                        <SeparatorMenuItem mnemonicParsing="false" />
+                        <MenuItem fx:id="mSelect" mnemonicParsing="true" text="Select All" />
+                    </items>
+                </Menu>
+                <Menu fx:id="help" text="Help">
+                    <items>
+                        <MenuItem fx:id="mAbout" mnemonicParsing="true" text="About" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+    <center>
+        <TextArea fx:id="area" />
+    </center>
+</BorderPane>
